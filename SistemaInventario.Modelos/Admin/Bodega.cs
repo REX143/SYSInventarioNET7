@@ -17,7 +17,7 @@ namespace SistemaInventario.Modelos.Admin
         public string? Nombre { get; set; }
 
         [Required(ErrorMessage = "{0} es obligatorio.")]
-        [MaxLength(10, ErrorMessage = "{0} no debe contener más de {1} carácteres.")]
+        [MaxLength(100, ErrorMessage = "{0} no debe contener más de {1} carácteres.")]
         public string? Descripcion { get; set; }
 
         [Required(ErrorMessage ="{0} es obligatorio.")]

@@ -8,6 +8,7 @@ namespace SistemaInventario.Utilidades
 {
     public static class DS
     {
-
+       public const string Exitosa = "Proceso Exitoso";
+       public const string Error = "Error al procesar";
     }
 }
