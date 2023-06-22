@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bwdzODApHuGmpHsgcN915Lj2KpRy1KtsTlvyqdBrykY=",
+  "Hash": "f8SvYKQgNYYREySO/r2kV6VX3+i7/q9n1BbueBh7BWY=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\Bodega.js",
+      "Identity": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\bodega.js",
       "SourceId": "SistemaInventario",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\",
       "BasePath": "_content/SistemaInventario",
-      "RelativePath": "js/Bodega.js",
+      "RelativePath": "js/bodega.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +99,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Bodega.js"
+      "OriginalItemSpec": "wwwroot\\js\\bodega.js"
+    },
+    {
+      "Identity": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\categoria.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoria.js"
     },
     {
       "Identity": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\site.js",
