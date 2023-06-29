@@ -10,5 +10,7 @@ namespace SistemaInventario.Utilidades
     {
        public const string Exitosa = "Proceso Exitoso";
        public const string Error = "Error al procesar";
+
+        public const string ImagenRuta = @"\imagenes\producto\";
     }
 }

@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\SistemaInventario.bundle.scp.css"
     },
     {
+      "Id": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\producto\\2dbde787-583b-4a2e-82a6-72e76fdd225e.JPG",
+      "PackagePath": "staticwebassets\\Imagenes\\producto\\2dbde787-583b-4a2e-82a6-72e76fdd225e.JPG"
+    },
+    {
+      "Id": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\producto\\636e2b9d-bf10-4704-b8d0-d3d513328a95.JPG",
+      "PackagePath": "staticwebassets\\Imagenes\\producto\\636e2b9d-bf10-4704-b8d0-d3d513328a95.JPG"
+    },
+    {
+      "Id": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\producto\\ea856615-102d-4d32-9c0d-fab22a6000b9.JPG",
+      "PackagePath": "staticwebassets\\Imagenes\\producto\\ea856615-102d-4d32-9c0d-fab22a6000b9.JPG"
+    },
+    {
       "Id": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -23,6 +35,10 @@
     {
       "Id": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\marca.js",
       "PackagePath": "staticwebassets\\js\\marca.js"
+    },
+    {
+      "Id": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
     },
     {
       "Id": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\site.js",

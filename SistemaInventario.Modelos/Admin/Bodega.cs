@@ -14,11 +14,11 @@ namespace SistemaInventario.Modelos.Admin
 
         [Required(ErrorMessage ="{0} es obligatorio.")]
         [MaxLength(60, ErrorMessage ="{0} no debe contener más de {1} carácteres.")]
-        public string? Nombre { get; set; }
+        public string Nombre { get; set; }
 
         [Required(ErrorMessage = "{0} es obligatorio.")]
         [MaxLength(100, ErrorMessage = "{0} no debe contener más de {1} carácteres.")]
-        public string? Descripcion { get; set; }
+        public string Descripcion { get; set; }
 
         [Required(ErrorMessage ="{0} es obligatorio.")]
         public bool Estado { get; set; }
