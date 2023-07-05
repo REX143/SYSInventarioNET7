@@ -561,3 +561,5 @@ C:\Devs\NET 7\ASP NET 7\SistemaInventario\SistemaInventario\bin\Debug\net7.0\vi\
 C:\Devs\NET 7\ASP NET 7\SistemaInventario\SistemaInventario\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
 C:\Devs\NET 7\ASP NET 7\SistemaInventario\SistemaInventario\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
 C:\Devs\NET 7\ASP NET 7\SistemaInventario\SistemaInventario\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+C:\Devs\NET 7\ASP NET 7\SistemaInventario\SistemaInventario\bin\Debug\net7.0\SendGrid.dll
+C:\Devs\NET 7\ASP NET 7\SistemaInventario\SistemaInventario\bin\Debug\net7.0\StarkbankEcdsa.dll
