@@ -18,14 +18,17 @@ namespace SistemaInventario.Utilidades
         {
             SendGridSecret = _config.GetValue<string>("SendGrid:SecretKey");
         }
-        public Task SendEmailAsync(string email, string subject, string htmlMessage)
+        public  Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             var client = new SendGridClient(SendGridSecret);
             var from = new EmailAddress("heraldava@gmail.com");
             var to = new EmailAddress(email);
             var msg = MailHelper.CreateSingleEmail(from, to, subject, "", htmlMessage);
+            var response =  client.SendEmailAsync(msg);
 
-            return client.SendEmailAsync(msg);
+            return response;
+
+       
         }
     }
 }
