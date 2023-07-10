@@ -5,6 +5,7 @@
     ViewData["Title"] = "KardexProductoResultado";
     Layout = "~/Views/Shared/_Layout.cshtml";
     var titulo = "Kardex Producto";
+
 }
 
 <div class="container">
@@ -18,7 +19,7 @@
             <div class="row mb-2">
                 <div class="form-group col-md-8 mt-2">
                     <label>
-                        <strong class="m-2">Desde:</strong>@Model.FechaInicio.ToLongDateString()
+                        <strong class="m-2">Desde:</strong>@Model.FechaInicio.ToShortDateString()
                         <strong class="m-2"> Hasta</strong>@Model.FechaFinal.ToShortDateString()
                     </label>
                 </div>
@@ -39,9 +40,15 @@
     </div>
 
     <div class="row mb-2">
-        <div class="form-group col-md-3 mt-2">
+        <div class="form-group col-md-6 mt-2">
             <a asp-action="KardexProducto" class="btn btn-primary">Nueva Consulta</a>
-            <a asp-action="Index" class="btn btn-secondary">Salir</a>
+            <a asp-action="ImprimirKardex" asp-route-fechaInicio="@Model.FechaInicio"
+                                           asp-route-fechaFinal="@Model.FechaFinal" 
+                                           asp-route-productoId="@Model.Producto.Id"
+               class="btn btn-success">
+            <i class="bi bi-printer"></i> Imprimir
+           </a>
+            <a asp-action="Index" class="btn btn-outline-danger">Salir</a>
         </div>
     </div>
 

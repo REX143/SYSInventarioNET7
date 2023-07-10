@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9n2koYyXzTXIaNGG0cH5NYtR2iUFXG803uRmDNPuepM=",
+  "Hash": "uv+RQlrK2tj13SsYqgp67r5hOrMI7sA03KqeMAtSKGQ=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -131,7 +131,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\producto\\2dbde787-583b-4a2e-82a6-72e76fdd225e.JPG"
     },
@@ -148,7 +148,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\producto\\636e2b9d-bf10-4704-b8d0-d3d513328a95.JPG"
     },
@@ -165,7 +165,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\producto\\95cee53c-655c-4c05-81ae-811077cde4ba.JPG"
     },
@@ -182,7 +182,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\producto\\e08dc58f-08e9-45ee-88fc-b16895bd3535.JPG"
     },
@@ -199,7 +199,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
+      "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\producto\\ea856615-102d-4d32-9c0d-fab22a6000b9.JPG"
     },

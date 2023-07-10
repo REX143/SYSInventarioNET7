@@ -37,7 +37,7 @@ builder.Services.Configure<IdentityOptions>(options =>
         options.Password.RequiredUniqueChars = 1;
     });
 
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();
 
@@ -71,5 +71,9 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{area=Inventario}/{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
+
+// Aplicación rotativa
+IWebHostEnvironment env = app.Environment;
+Rotativa.AspNetCore.RotativaConfiguration.Setup(env.WebRootPath, "..\\Rotativa\\Windows\\");
 
 app.Run();
