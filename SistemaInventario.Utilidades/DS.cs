@@ -12,6 +12,7 @@ namespace SistemaInventario.Utilidades
        public const string Error = "Error al procesar";
 
         public const string ImagenRuta = @"\imagenes\producto\";
+        public const string ssCarroCompras = "Sesión carro compras";
 
         public const string Role_Admin = "Admin";
         public const string Role_Cliente = "Cliente";
