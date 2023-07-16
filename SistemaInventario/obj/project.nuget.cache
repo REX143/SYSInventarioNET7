@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YZ2+kKvQQeBn3gyc7qrjqSQ5XlBAIotWMUyQa6GOCoEyjSM2ztFqPBVWEdKRZYbPrRTgj5lfBKk+uvjtoUmGiQ==",
+  "dgSpecHash": "TYBsHP0FFFRriPDucJ37fQ+oYK5RyZ5Kk/tAVOXjE5YppmooHeiGCa16DzUZQBlX3gxi4+H4Is+6IUvxnRfx5w==",
   "success": true,
   "projectFilePath": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
   "expectedPackageFiles": [
@@ -202,6 +202,7 @@
     "C:\\Users\\51928\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\51928\\.nuget\\packages\\sendgrid\\9.28.1\\sendgrid.9.28.1.nupkg.sha512",
     "C:\\Users\\51928\\.nuget\\packages\\starkbank-ecdsa\\1.3.3\\starkbank-ecdsa.1.3.3.nupkg.sha512",
+    "C:\\Users\\51928\\.nuget\\packages\\stripe.net\\41.24.0\\stripe.net.41.24.0.nupkg.sha512",
     "C:\\Users\\51928\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\51928\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\51928\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

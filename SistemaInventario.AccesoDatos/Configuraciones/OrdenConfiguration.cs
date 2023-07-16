@@ -23,6 +23,7 @@ namespace SistemaInventario.AccesoDatos.Configuraciones
             builder.Property(x => x.NumeroEnvio).IsRequired(false);
             builder.Property(x => x.Currier).IsRequired(false);
             builder.Property(x => x.TransaccionId).IsRequired(false);
+            builder.Property(x => x.SessionId).IsRequired(false);
             builder.Property(x => x.Telefono).IsRequired(false);
             builder.Property(x => x.Direccion).IsRequired(false);
             builder.Property(x => x.Ciudad).IsRequired(false);

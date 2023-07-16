@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SistemaInventario.bundle.scp.css"
     },
     {
+      "Id": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\confirmacion.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\confirmacion.jpg"
+    },
+    {
       "Id": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\Imagenes\\icono.ico",
       "PackagePath": "staticwebassets\\Imagenes\\icono.ico"
     },

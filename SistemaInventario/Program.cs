@@ -5,6 +5,7 @@ using SistemaInventario.AccesoDatos.Data;
 using SistemaInventario.AccesoDatos.Repositorio;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Utilidades;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -53,6 +54,9 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential= true;
 });
 
+// Para pasarela de pagos stripe
+builder.Services.Configure<StripeSetting>(builder.Configuration.GetSection("Stripe"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -69,6 +73,10 @@ else
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+// Pagos stripe
+StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+//****************************
 
 app.UseRouting();
 
