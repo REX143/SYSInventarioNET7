@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UCDNMfY+eLGjShalBB4hHuXilq1k2+MZ5FBSxLLrk6s=",
+  "Hash": "z5ftLOu/B+ncs5X2Oo7CsF0zzxhZ051HIpQQVMXH+z4=",
   "Source": "SistemaInventario",
   "BasePath": "_content/SistemaInventario",
   "Mode": "Default",
@@ -287,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\marca.js"
+    },
+    {
+      "Identity": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\orden.js",
+      "SourceId": "SistemaInventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\",
+      "BasePath": "_content/SistemaInventario",
+      "RelativePath": "js/orden.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\orden.js"
     },
     {
       "Identity": "C:\\Devs\\NET 7\\ASP NET 7\\SistemaInventario\\SistemaInventario\\wwwroot\\js\\producto.js",
