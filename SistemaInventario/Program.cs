@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using SistemaInventario.AccesoDatos.Data;
+using SistemaInventario.AccesoDatos.Inicializador;
 using SistemaInventario.AccesoDatos.Repositorio;
 using SistemaInventario.AccesoDatos.Repositorio.IRepositorio;
 using SistemaInventario.Utilidades;
@@ -57,6 +58,9 @@ builder.Services.AddSession(options =>
 // Para pasarela de pagos stripe
 builder.Services.Configure<StripeSetting>(builder.Configuration.GetSection("Stripe"));
 
+// INICIALIZADOR DEL LA BD EN PRD
+builder.Services.AddScoped<IDBInicializador, DBInicializador>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -86,6 +90,26 @@ app.UseSession();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+// APLICAR Migraciones y datos iniciales
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+
+    try
+    {
+        var inicializador = services.GetRequiredService<IDBInicializador>();
+        inicializador.Inicializar();
+    }
+    catch (Exception ex)
+    {
+
+        var logger = loggerFactory.CreateLogger<Program>();
+        logger.LogError(ex, "Ocurrio un error al ejecutar la migración");
+    }
+}
+// ***********************************************************************
 
 app.MapControllerRoute(
     name: "default",
